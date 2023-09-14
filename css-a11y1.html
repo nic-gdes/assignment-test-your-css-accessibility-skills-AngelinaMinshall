@@ -16,23 +16,36 @@
         box-sizing: border-box;
       }
 
-      a {
-        text-decoration: none;
-        color: #666;
-        outline: none;
+
+
+      ul {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        list-style-type: none;
+      }
+      a:active {
+         color:blue;
+       }
+     a:visited {
+          color: purple;
+      }
+      li :hover {
+        color:darkgreen;
+        line-height: 1.5;
+        font-size: 1.6rem;
       }
     </style>
   </head>
 
   <body>
-
     <ul>
-      <li><a href="">Animals</a></li>
-      <li><a href="">Computers</a></li>
-      <li><a href="">Diversity and inclusion</a></li>
-      <li><a href="">Food</a></li>
-      <li><a href="">Medicine</a></li>
-      <li><a href="">Music</a></li>
+      <li> <a href="">Animals</a></li>
+      <li> <a href="">Computers</a></li>
+      <li> <a href="">Diversity and inclusion</a></li>
+      <li> <a href="">Food</a></li>
+      <li> <a href="">Medicine</a></li>
+      <li> <a href="">Music</a></li>
     </ul>
 
   </body>
